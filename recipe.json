@@ -1,0 +1,11 @@
+{
+  "name": "Django",
+  "entry": [
+    "manage.py",
+    "./composeexample/settings.py",
+    "./composeexample/urls.py"
+  ],
+  "inputs": {},
+  "execute_background": ["docker-compose up -d"],
+  "execute": ["docker-compose up"]
+}
