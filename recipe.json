@@ -5,15 +5,7 @@
     "./composeexample/settings.py",
     "./composeexample/urls.py"
   ],
-  "inputs": {
-    "port": {
-      "element": "input",
-      "label": "Enter Port",
-      "placeholder": "Ex: 8080",
-      "value": 3000,
-      "optional": false
-    }
-  },
+  "inputs": {},
   "execute_background": ["docker-compose up -d"],
   "execute": ["docker-compose up"]
 }
